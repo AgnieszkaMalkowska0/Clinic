@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Visit arranged</title>
+
+
+
+</head>
+<body>
+
+<h3>You have just arranged a visit between doctor</h3>
+<p th:text="${visit.doctor.name}"/>
+<h5> and patient</h5>
+<p th:text="${visit.patient.name}"/>
+<h5>Description: </h5>
+<p th:text="${visit.description}"/>
+
+</body>
+</html>
